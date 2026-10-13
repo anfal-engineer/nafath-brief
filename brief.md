@@ -27,4 +27,6 @@ Under Oman's Personal Data Protection Law, the authority should inform citizens 
 
 Resource: Executive Regulations of the Personal Data Protection Law - https://opendata.gov.om/ar/community/laws/3b3cbc1e-1e57-4b98-91f7-3def8f34f158
 Misconception in My Track
+A common misconception is that DNS over HTTPS (DoH) makes all online activity private and anonymous. In reality, DoH encrypts DNS queries between the client and its resolver, helping prevent observers on the network from reading or modifying those queries. However, it does not hide the client's IP address from the resolver or encrypt all other internet traffic by itself. Section 8, "Privacy Considerations," of RFC 8484 explains the privacy risks and limitations of DoH.
 Open Question
+How can a national login service choose a trusted DoH resolver while balancing citizens' privacy, service reliability, and protection against DNS-based attacks?
