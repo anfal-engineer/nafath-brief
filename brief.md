@@ -15,7 +15,16 @@ Android's runtime permission model restricts access to certain sensitive data an
 
 Resource: Android Developers — Permissions on Android - https://developer.android.com/guide/topics/permissions/overview
 Networking
+DNS over HTTPS (DoH) sends DNS queries and responses through encrypted HTTPS connections. It helps protect users from network observers reading their DNS queries and reduces the risk of attackers tampering with DNS traffic in transit. However, DoH does not hide the user's IP address from the DoH resolver, encrypt all website traffic by itself, or prevent websites and other parties from tracking users through other methods.
+
+Resource: RFC 8484: DNS Queries over HTTPS (DoH) - https://www.rfc-editor.org/rfc/rfc8484.html
 Cybersecurity
+Phishing-resistant authentication prevents attackers from reusing authentication secrets at fake login sites because the authentication protocol binds the response to the legitimate service. Examples include FIDO2 security keys and passkeys using WebAuthn. Passwords, SMS codes, authenticator-app one-time passwords, and manually entered approval codes are not phishing-resistant, even when used as part of multi-factor authentication. The service should offer phishing-resistant methods to better protect citizens' accounts.
+
+Resource: NIST SP 800-63B - Authenticator and Verifier Requirements - https://pages.nist.gov/800-63-4/sp800-63b/authenticators/
 Data
+Under Oman's Personal Data Protection Law, the authority should inform citizens about why their personal data is collected and obtain their explicit consent before processing it, as required by law. It must establish a personal data protection policy, maintain records of processing activities, and provide a way for individuals to exercise their rights. Certain sensitive data requires a Ministry permit, and data breaches must be reported when required by law. The authority must also follow applicable rules for transferring data outside Oman.
+
+Resource: Executive Regulations of the Personal Data Protection Law - https://opendata.gov.om/ar/community/laws/3b3cbc1e-1e57-4b98-91f7-3def8f34f158
 Misconception in My Track
 Open Question
